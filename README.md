@@ -1,1 +1,1 @@
-# patrickptasznik.github.io
+# ptasznik.github.io
