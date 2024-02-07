@@ -80,7 +80,15 @@ document.addEventListener('DOMContentLoaded', function () {
     const backgrounds = ['url(images/background.png)', 'url(images/backgroundbw.png)'];
     const homeSection = document.querySelector('.home');
     let currentBackgroundIndex = 0;
-  
+
+    //preload images
+    const imageCache = [];
+    backgrounds.forEach(background => {
+        const img = new Image();
+        img.src = background;
+        imageCache.push(img);
+    });
+    
     function changeBackground() {
       homeSection.style.backgroundImage = backgrounds[currentBackgroundIndex];
       currentBackgroundIndex = (currentBackgroundIndex + 1) % backgrounds.length;
