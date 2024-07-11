@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE = edge" />
+    <meta name="viewport" content="width = device-width, initial scale = 1.0" />
+
+    <title>Patrick Ptasznik | Software Engineer</title>
+    <link rel="icon" href="images/favicon4.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="keyframes.css" />
+
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+
+  <body>
+    <!--header-->
+    <header class="header">
+      <a href="#home" class="name">ptasznik<span>.</span></a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">home()</a>
+        <a href="#about">aboutMe()</a>
+        <a href="#projects">projects()</a>
+        <a href="#resume">resume()</a>
+        <a href="#contact">contact()</a>
+      </nav>
+      <div class="menu-btn">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </header>
+
+    <!-- home page -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>hey, i'm <span>Patrick Ptasznik</span>.</h1>
+        <div class="text-animate hide-sm">
+          <h3>backend software engineer</h3>
+        </div>
+        <div class="text-non-animate show-sm">
+          <h3>backend software engineer</h3>
+        </div>
+        <p>
+          I am a third-year undergraduate Computer Engineering student at the
+          <a href="https://grainger.illinois.edu/" target="_blank"
+            ><orange>University of Illinois at Urbana-Champaign</orange></a
+          >. I am deeply passionate about backend software engineering, where I
+          strive to develop innovative solutions for optimizing and automating
+          real-world challenges.<br /><br />
+          I am currently a Cybersecurity SWE Intern at <a href="https://www.mondelezinternational.com/" target = "_blank"><purple>Mondelēz International</purple></a>.
+        </p>
+
+        <div class="btn-box">
+          <a
+            onclick="window.open('resume.pdf', '_blank')"
+            class="btn"
+            style="cursor: pointer"
+            >see my resume</a
+          >
+          <a href="#contact" class="btn">let's talk</a>
+        </div>
+      </div>
+
+      <div class="home-socials">
+        <a href="mailto:patrickptasznik@email.com"
+          ><i class="bx bx-envelope"></i
+        ></a>
+        <a href="https://github.com/patrickptasznik" target="_blank"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/patrickptasznik/" target="_blank"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+      </div>
+      <div class="home-hover"></div>
+    </section>
+
+    <!-- about me page -->
+    <section class="about" id="about">
+      <h2 class="heading">a little bit about <span>me</span>...</h2>
+
+      <div class="about-img-container">
+        <div class="about-img">
+          <img src="images/vball.png" alt="" />
+          <!-- <span class = "circle-spin"></span> -->
+        </div>
+
+        <div class="about-img">
+          <img src="images/snowboard.png" alt="" />
+          <!-- <span class = "circle-spin"></span> -->
+        </div>
+
+        <div class="about-img">
+          <img src="images/cliff.png" alt="" />
+          <!-- <span class = "circle-spin"></span> -->
+        </div>
+      </div>
+
+      <div class="about-content">
+        <h3>outside of <span>coding()</span>.&nbsp;</h3>
+        <p>
+          Outside of my studies, I have always had a passion for playing sports
+          and staying active. Throughout high school, I was a tri-athlete, with
+          volleyball being my main interest, which led me to play on a national
+          club team for two years. Such an opportunity taught me
+          <span>teamwork</span>, <span>leadership</span>, and
+          <span>strategic thinking</span>, which smoothly translated over to
+          <span>engineering</span>. Outside of sports, I enjoy lifting weights,
+          automotives and motorcycles, and anything that mom would probably not
+          approve of (as seen above).
+        </p>
+
+        <p>
+          I believe that having such a <span>balance</span> of various
+          activities is crucial to <span>succeed</span> in the real world. I am
+          passionate about leveraging my skills not only as a software engineer,
+          but also as an individual with a rich array[i] of experiences and
+          interests beyond the software realm.
+        </p>
+      </div>
+    </section>
+
+    <!-- projects/tech stack page -->
+    <section class="projects" id="projects">
+      <h2 class="heading">my <span>tech stack</span>...</h2>
+
+      <div class="tech-stack">
+        <div class="tech-images">
+          <img src="images/cplusplus.png" alt="" />
+          <span class="language-name"><bold>C++</bold></span>
+        </div>
+
+        <div class="tech-images">
+          <img src="images/c.png" alt="" />
+          <span class="language-name"><bold>C</bold></span>
+        </div>
+
+        <div class="tech-images">
+          <img src="images/python.png" alt="" />
+          <span class="language-name"><bold>Python</bold></span>
+        </div>
+
+        <div class="tech-images">
+          <img src="images/html.png" alt="" />
+          <span class="language-name"><bold>HTML</bold></span>
+        </div>
+
+        <div class="tech-images">
+          <img src="images/css.png" alt="" />
+          <span class="language-name"><bold>CSS</bold></span>
+        </div>
+
+        <div class="tech-images">
+          <img src="images/javascript.png" alt="" />
+          <span class="language-name"><bold>JavaScript</bold></span>
+        </div>
+
+        <div class="tech-images">
+          <img src="images/x86.png" alt="" />
+          <span class="language-name"><bold>x86</bold></span>
+        </div>
+
+        <div class="tech-images">
+          <img src="images/systemverilog.png" alt="" />
+          <span class="language-name"><bold>SystemVerilog</bold></span>
+        </div>
+      </div>
+
+      <h3 class="subheading">
+        ...and some <span>projects</span> I've done with it:
+      </h3>
+
+      <div class="container">
+        <div class="row">
+          <h3
+            style="animation: bounce 1s infinite"
+            class="show-sm click-here-email-text"
+          >
+            🠇 click to <span>view</span> details 🠇
+          </h3>
+          <ul class="project-list">
+            <li class="project">
+              <div class="project-wrapper">
+                <img
+                  src="images/alma.jpg"
+                  class="project-image"
+                  alt="project"
+                />
+                <div class="project-description">
+                  <h2 class="project-title">
+                    Image Enhancement & Sticker Integration Tool
+                  </h2>
+                  <h2 class="project-languages">C++</h2>
+
+                  <p
+                    style="font-size: 15px"
+                    class="project-description-parameters"
+                  >
+                    Automation being one of my favorite software realms, this
+                    project was one of my favorites due to its great amount of
+                    functions, resulting in a fully customizable 1-of-1 picture
+                    of your choice. Any inputted image was able to have several
+                    characteristics edited, including saturation, hue,
+                    luminance, grayscale, and even scale. All of these values
+                    were edited by accessing every pixel of the image and
+                    editing the values at that coordinate. My favorite function
+                    was illinify(), which was responsible for transforming the
+                    hue of every pixel orange or blue(UIUC's colors), based on
+                    if the pixel's hue value is closer to orange or blue(the
+                    example image has this function applied!).
+                    <br /><br />For the sticker aspect of this project, stickers
+                    of any size were able to be placed at any coordinate, even
+                    exceeding boundaries, affecting the outputting image's
+                    bounds by extending it with blank white space in any
+                    direction.
+                  </p>
+                </div>
+                <div class="click-message">click me...</div>
+              </div>
+            </li>
+
+            <li class="project">
+              <div class="project-wrapper">
+                <img
+                  src="images/photomosaic.jpg"
+                  class="project-image"
+                  alt="project"
+                />
+
+                <div class="project-description">
+                  <h2 class="project-title">Photomosaic Generator</h2>
+                  <h2 class="project-languages">C++</h2>
+
+                  <p
+                    style="font-size: 16px"
+                    class="project-description-parameters"
+                  >
+                    For this project, I built a photomosaic generator which
+                    functioned by making decisions on how to map smaller images
+                    from a local directory of images to rectangular sections of
+                    pixels(of user-inputted size) in the source image. Selecting
+                    the correct image from the local directory was supported by
+                    using a k-d tree, which is a type of binary search tree that
+                    supports nearest neighbor search(NNS) in multiple
+                    dimensions. For this specific project, I used a 3-D tree, as
+                    finding the nearest colored image was determined by points
+                    (L, U, V)- color space coordinates. Using a map, the final
+                    result was produced by mapping the correct tile images to
+                    their designated sections, resulting in a photomosaic, like
+                    the one above(that's me!).
+                  </p>
+                </div>
+                <div class="click-message">and me...</div>
+              </div>
+            </li>
+
+            <li class="project">
+              <div class="project-wrapper">
+                <img
+                  src="images/jetpackjoyride.jpg"
+                  class="project-image"
+                  alt="project"
+                />
+
+                <div class="project-description">
+                  <h2 class="project-title">FPGA Endless Runner Game</h2>
+                  <h2 class="project-languages">C, SystemVerilog</h2>
+
+                  <p
+                    style="font-size: 15px"
+                    class="project-description-parameters"
+                  >
+                    One of my most interesting projects yet is a simulation of
+                    the mobile game <bold>Jetpack Joyride</bold>. This project
+                    was built using C and SystemVerilog, maximing
+                    hardware-software integration.<br /><br />
+                    <bold>System Verilog - </bold>The SV code was written to
+                    insert and instantiate several different sprites for the
+                    game, such as the character and a large variety of
+                    obstacles. SV was also used to create gravity for the
+                    character, make the background scroll, and have obstacles
+                    appear and move across the screen. Finally, a death screen
+                    was implemented, where once a pixel of the character
+                    collided with an obstacle pixel, the death screen was
+                    displayed.<br /><br />
+                    <bold>C - </bold>The C code focused on managing color
+                    display on an HDMI interface by selecting the correct bits
+                    of a specific color and then displaying the desired sprite.
+                    Bytes would be read and written from registers storing
+                    information, which would efficiently choose what is supposed
+                    to get displayed at the current moment.
+                  </p>
+                </div>
+                <div class="click-message">me three...</div>
+              </div>
+            </li>
+
+            <li class="project">
+              <div class="project-wrapper">
+                <img
+                  src="images/personalportfolio.jpg"
+                  class="project-image"
+                  alt="project"
+                />
+
+                <div class="project-description">
+                  <h2 class="project-title">Personal Portfolio</h2>
+                  <h2 class="project-languages">HTML, CSS, JavaScript</h2>
+
+                  <p
+                    style="font-size: 16px"
+                    class="project-description-parameters"
+                  >
+                    This past winter break, I got the bright idea to create a
+                    website to act as my personal portfolio. I wanted this to
+                    serve as my own space to share a bit about myself, showcase
+                    my skills, display some of my favorite personal projects,
+                    and provide a convenient way for others to connect with
+                    me.<br /><br />
+                    In addition, I wanted to sharpen my HTML and CSS skills,
+                    along with learning how to implement JavaScript for
+                    front-end development. Summing up to around 1,500 lines of
+                    code, it was the perfect project to expand my web
+                    development skillset while creating a personalized and
+                    functional portfolio.
+                  </p>
+                </div>
+                <div class="click-message">and don't forget me...</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 class="subheading">
+        ...and some <span>current/upcoming</span> projects I have:
+      </h3>
+
+      <div class="container">
+        <div class="row">
+          <ul class="project-list">
+            <li class="project">
+              <div class="project-wrapper">
+                <img
+                  src="images/linux.jpg"
+                  class="project-image"
+                  alt="project"
+                />
+
+                <div class="project-description">
+                  <h2 class="project-title">Linux-Like Operating System</h2>
+                  <h2 class="project-languages">C, x86 Assembly</h2>
+
+                  <p
+                    style="font-size: 16px"
+                    class="project-description-parameters"
+                  >
+                    In <bold>ECE 391 - Computer Systems Engineering</bold>, I
+                    will be designing and building a 32-bit Linux-based kernel
+                    from scratch using C and x86 Assembly. This project will
+                    include advanced features such as memory-mapping, paging,
+                    virtualization, and hardware interrupts. Simultaneously,
+                    I'll construct device drivers for the keyboard, mouse, and
+                    real-time clock, creating an interactive user shell for a
+                    seamless experience. Stay tuned for a more-detailed showcase
+                    of this operating system's functions and kernel
+                    architecture.
+                  </p>
+                </div>
+                <div class="click-message">click here...</div>
+              </div>
+            </li>
+
+            <li class="project">
+              <div class="project-wrapper">
+                <img
+                  src="images/gamedev2.jpg"
+                  class="project-image"
+                  alt="project"
+                />
+
+                <div class="project-description">
+                  <h2 class="project-title">UE5-Built Video Game</h2>
+                  <h2 class="project-languages">C++ (Unreal Engine 5)</h2>
+
+                  <p
+                    style="font-size: 16px"
+                    class="project-description-parameters"
+                  >
+                    By taking <bold>CS 415 - Game Development</bold> this
+                    semester, I will have the opportunity to design and build my
+                    own video game. This project will be made using Unreal
+                    Engine 5, which will consist of programming in C++, using
+                    Blueprints(a visual scripting system), and more. I currently
+                    have two other programming assignments to complete in order
+                    to familiarize myself with the engine itself before
+                    constructing this complex and well-developed video game. to
+                    reveal what I come up with!
+                  </p>
+                </div>
+                <div class="click-message">and here...</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- resume -->
+    <section class="resume" id="resume">
+      <h1 class="resume-heading">take a peek at my <span>resume</span>:</h1>
+
+      <h3 class="no-download-text">
+        (don't worry, it won't automatically download)
+      </h3>
+
+      <div class="resume-button">
+        <div class="btn-box btns">
+          <a
+            onclick="window.open('resume.pdf', '_blank')"
+            class="btn"
+            style="cursor: pointer"
+            >see my resume</a
+          >
+        </div>
+      </div>
+
+      <div class="resume-content">
+        <h1>
+          ...or just see a short <span>notepad</span> of my <span>skills</span>:
+        </h1>
+
+        <!-- mockup notepad -->
+        <div class="notepad-container">
+          <div class="pencil-image">
+            <img src="images/pencil.png" alt="pencil" />
+          </div>
+
+          <div class="spiral-image">
+            <img src="images/spiral2.png" alt="spiral" />
+          </div>
+          <h1 class="notepad-title">Patrick Ptasznik</h1>
+          <p class="notepad-section-title">Education:</p>
+          <p>• The University of Illinois at Urbana-Champaign</p>
+          <p>• Bachelor of Science in Computer Engineering</p>
+          <p>• Expected May 2025</p>
+
+          <p class="notepad-section-title">Relevant Coursework:</p>
+          <ul class="notepad-list">
+            <li>
+              • <bold>ECE:</bold> Data Structures, Computer Systems &
+              Programming, Digital Systems Laboratory, Discrete Structures,
+              Introduction to Computing, Analog Signal Processing
+            </li>
+            <li>
+              • <bold>Math:</bold> Linear Algebra, Differential Equations,
+              Calculus I-III
+            </li>
+          </ul>
+
+          <p class="notepad-section-title">Programming Languages:</p>
+          <ul class="notepad-list">
+            <li>
+              • C++, C, Python, HTML, CSS, JavaScript, System Verilog, Assembly
+              Language
+            </li>
+          </ul>
+
+          <p class="notepad-section-title">Developer Tools:</p>
+          <ul class="notepad-list">
+            <li>
+              • Git, Linux, Visual Studio, Docker, GNU Debugger, Valgrind,
+              PyTorch, OpenCV, Xilinx Vivado, Intel Quartus, Anaconda, Discord
+              Developer Portal, Scopy, AutoCAD
+            </li>
+          </ul>
+
+          <p class="notepad-section-title">Spoken Languages:</p>
+          <p>• Fluent proficiency in English and Polish</p>
+          <p>• Conversational proficiency in Spanish</p>
+        </div>
+      </div>  
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="contact-heading">let's <span>talk</span>.</h2>
+      <h3 class="no-form-text">
+        i don't like contact forms. they're too tacky ;)
+      </h3>
+      <h3 class="subheading">
+        <i class="bx bx-envelope"></i> shoot me an email at:
+        <a href="mailto:patrickptasznik@gmail.com"
+          ><span><underline>patrickptasznik@gmail.com</underline></span></a
+        >
+      </h3>
+      <h4>or...</h4>
+      <h3 class="subheading">
+        <i class="bx bxl-linkedin-square"></i> let's connect and chat on
+        <a href="https://www.linkedin.com/in/patrickptasznik/" target="_blank"
+          ><span><underline>LinkedIn</underline></span></a
+        >.
+      </h3>
+
+      <div class="lastsentence">
+        <h2 class="glitch" data-text="let's make it work.">
+          let's make it <span>happen</span>.
+        </h2>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>
+          &copy; 2024 Patrick Ptasznik |
+          <a href="https://github.com/patrickptasznik" target="_blank"
+            ><span>source</span></a
+          >
+        </p>
+      </div>
+
+      <div class="footer-scroll-up">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+    <div class="modal-overlay">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="modal-body"></div>
+      </div>
+    </div>
+  </body>
+
+  <script src="main.js"></script>
+  <script src="projects.js"></script>
+</html>
